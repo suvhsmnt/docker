@@ -15,7 +15,7 @@ public class ApllicationController {
 	@GetMapping
 	public String hello()
 	{
-		System.out.println("Hellow");
+		System.out.println("Active profile :: "+activeProfile);
 		return "App is running and active profile is "+activeProfile;
 	}
 
